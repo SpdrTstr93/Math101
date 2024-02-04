@@ -5,7 +5,7 @@
 	- [Plurality-with-Elimination](Chapter1/Plurality-with-Elimination.md)
 3. [Borda Count Method](Chapter1/Borda_Count_Method.md)
 4. [Pairwise Comparisons](Chapter1/Pairwise_Comparisons.md)
-5. [Fairness Criteria and Arrow's Impossibility Theorem](Chapter1/Fairness_Criteria_and_Arrow's_Impossibility.md)
+5. [Fairness Criteria and Arrow's Impossibility Theorem](Chapter1/Fairness_Criteria_and_Arrow's_Impossibility_Theorem.md)
 # Chapter 2
 1. [[Weighted Voting]]
 2. [[Banzhaf Power]]
