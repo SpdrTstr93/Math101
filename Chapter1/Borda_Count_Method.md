@@ -14,6 +14,7 @@ Using a preference ballot/schedule, points are assigned to each candidate accord
 > | 4th | D | A | A | A | A |
 > 
 > Tallying the points:
+>
 > $A$ gets $4(14)+1(10)+1(8)+1(4)+1(1)=79$ points
 >
 > $B$ gets $3(14)+3(10)+2(8)+4(4)+1(2)=106$ points
