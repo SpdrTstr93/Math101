@@ -2,8 +2,9 @@ Using a preference ballot/schedule, points are assigned to each candidate accord
 - 1 point for last place
 - 2 points for second from last
 - ...
->[!example] Application of Borda Count
-> Candidate A is the winner using [[Plurality Method]] lets see what happens now.
+>[!Important]
+>Application of Borda Count
+> Candidate A is the winner using [Plurality Method](Plurality_Method) lets see what happens now.
 >
 >| Number of voters | 14 | 10 | 8 | 4 | 1|
 > | --- | :---: | :---: | :---: | :---: | :---: |
