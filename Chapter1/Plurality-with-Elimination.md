@@ -1,5 +1,6 @@
-This is used in the case when none of the candidates have the majority number of votes. A number of rounds are held until there is a candidate that has the majority number of votes. The same table can be used with elimination to observer what happens with elimination.
->[!example] All votes are collected and combined into a preference table
+This is used in the case when none of the candidates have the majority number of votes. A number of rounds are held until there is a candidate that has the majority number of votes. The same table can be used with elimination to observe what happens to the result.
+>[!important]
+>All votes are collected and combined into a preference table
 >
 >| Number of voters | 14 | 10 | 8 | 4 | 1|
 > | --- | :---: | :---: | :---: | :---: | :---: |
