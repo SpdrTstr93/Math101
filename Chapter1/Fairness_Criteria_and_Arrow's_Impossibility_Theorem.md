@@ -37,7 +37,7 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
  
 3. **The Monotonicity Criterion**: The outcome of the election should not change if the elected candidate is moved up on a preference ballot
 >[!important]
->How [Plurality-with-Elimination](Plurality-with_Elimination.md) violates the Monotonicity criterion
+>How [Plurality-with-Elimination](Plurality-with-Elimination.md) violates the Monotonicity criterion
 >This is the preference table before any votes change. Using Plurality-with-elimination, candidate C is the winner.
 >
 >| Number of voters | 7 | 8 | 10 | 2 |
