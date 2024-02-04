@@ -1,6 +1,7 @@
 Also known as **Copeland's Method**, use a preference schedule to count how many times candidate X is ranked above candidate Y. The winner gets 1 point, the loser gets 0, and if it is a tie they each get 0.5 points. After all comparisons are complete then whichever candidate has the most amount of points wins.
 
->[!example] Pairwise comparisons using example table
+>[!important]
+>Pairwise comparisons using example table
 >
 >| Number of voters | 14 | 10 | 8 | 4 | 1|
 > | --- | :---: | :---: | :---: | :---: | :---: |
@@ -19,7 +20,7 @@ Also known as **Copeland's Method**, use a preference schedule to count how many
 | (6) C vs D | C: 25 votes<br>D: 12 votes | C |
 **Total Points**: C = 3, B = 2, D = 1, A = 0
 
-This method always ends up choosing the [[Fairness Criteria and Arrow's Impossibility Theorem|Condorcet candidate]], when there is one, as the winner. In everyday life through, this method is not used much at all. If you want to figure out how many comparisons you need to make you can use the following formula.
+This method always ends up choosing the [Condorcet candidate](Fairness_Criteria_and_Arrow's_Impossibility_Theorem.md), when there is one, as the winner. In everyday life through, this method is not used much at all. If you want to figure out how many comparisons you need to make you can use the following formula.
 $$
 \frac{N(N-1)}{2}
 \tag{1}
