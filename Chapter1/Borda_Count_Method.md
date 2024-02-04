@@ -4,7 +4,7 @@ Using a preference ballot/schedule, points are assigned to each candidate accord
 - ...
 >[!Important]
 >Application of Borda Count
-> Candidate A is the winner using [Plurality Method](Plurality_Method) lets see what happens now.
+> Candidate A is the winner using [Plurality Method](Plurality_Method.md) lets see what happens now.
 >
 >| Number of voters | 14 | 10 | 8 | 4 | 1|
 > | --- | :---: | :---: | :---: | :---: | :---: |
