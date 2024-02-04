@@ -3,7 +3,8 @@ So how do you know which voting method is the best for your election? Well if yo
 ## Arrows Impossibility Theorem
 Kenneth J. Arrow came up with these **fairness criteria** to help determine whether an election is fair.
 1. **The Majority Criterion**: The candidate with the majority of first place votes should win the election
->[!example]- How [[Borda Count Method]] violates Majority criterion
+>[!important]
+>How [Borda Count Method](Borda_Count_Method.md) violates Majority criterion
 >
 >| Number of voters | 6 | 2 | 3 |
 >| ---- | :----: | :----: | :----: |
@@ -13,10 +14,13 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 4th | D | A | A |
 >
 >A is the winner by having the majority of the first place votes. Using Borda count the resulting happens: A = 29 points, B = 32 points, C = 30 points, and D = 19 points. So according to Borda, B should be the winner.
->>[!warning] This is a violation!
+
+>[!caution]
+>This is a violation!
 
 2. **The Condorcet Criterion**: The Condorcet candidate (the candidate that wins the most amount of pairwise comparisons) should win the election
->[!example]- How [[Plurality Method]] violates the Condorcet criterion
+>[!important]
+>How [Plurality Method](Plurality_Method.md) violates the Condorcet criterion
 >
 >| Number of voters | 49 | 48 | 3 |
 >| ---- | :----: | :----: | :----: |
@@ -26,11 +30,14 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 4th | O | F | O |
 >| 5th | S | R | R |
 >
->Using [[Pairwise Comparisons]] the Condorcet candidate is found to be H. Yet using Plurality the candidate that should win is R.
->>[!warning] This is a violation!
+>Using [Pairwise Comparisons](Pairwise_Comparisons.md) the Condorcet candidate is found to be H. Yet using Plurality the candidate that should win is R.
+
+>[!caution]
+>This is a violation!
  
 3. **The Monotonicity Criterion**: The outcome of the election should not change if the elected candidate is moved up on a preference ballot
->[!example]- How [[Plurality-with-Elimination]] violates the Monotonicity criterion
+>[!important]
+>How [Plurality-with-Elimination](Plurality-with_Elimination) violates the Monotonicity criterion
 >This is the preference table before any votes change. Using Plurality-with-elimination, candidate C is the winner.
 >
 >| Number of voters | 7 | 8 | 10 | 2 |
@@ -46,11 +53,14 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 1st | A | B  | C | C |
 >| 2nd | B | C  | A | A |
 >| 3rd | C | A | B | B |
->>[!warning] This is a violation!
+
+>[!caution]
+>This is a violation!
 
 4. **The Independence-of-irrelevant-alternatives (IIA) criterion**: If candidate X is the winner in the election normally then the result shouldn't change if one or more of the losing candidates were to have not been in the race.
->[!example]- How [[Pairwise Comparisons]] violates the IAA
->In this original preference schedule performing a Pairwise comparisons results in candidate A being the winner. 
+>[!important]
+>How [Pairwise Comparisons](Pairwise_Comparisons.md) violates the IAA
+>In this original preference schedule performing a Pairwise comparison results in candidate A being the winner. 
 >
 >| Number of voters | 2 | 6 | 4 | 1 | 1 | 4 | 4 |
 >| ---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -68,9 +78,11 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 2nd | D | A | A | A | A | A | D |
 >| 3rd | B | D | D | D | B | E | B |
 >| 4th | E | E | E | E | E | B | A |
->>[!warning] This is a violation!
 
-Each of the examples provided above are just one way that each method violates Arrow's fairness criteria. Below is a full summary table of each of the voting systems covered and what they violate.
+>[!caution]
+>This is a violation!
+
+Each of the examples provided above is just one way that each method violates Arrow's fairness criteria. Below is a full summary table of each of the voting systems covered and what they violate.
 
 | Criterion | Plurality | Borda Count | Plurality-with-<br>elimination | Pairwise<br>comparisons |
 | ---- | ---- | ---- | ---- | ---- |
