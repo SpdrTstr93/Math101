@@ -11,6 +11,7 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 2nd | B | C | D |
 >| 3rd | C | D | B |
 >| 4th | D | A | A |
+>
 >A is the winner by having the majority of the first place votes. Using Borda count the resulting happens: A = 29 points, B = 32 points, C = 30 points, and D = 19 points. So according to Borda, B should be the winner.
 >>[!warning] This is a violation!
 
@@ -24,6 +25,7 @@ Kenneth J. Arrow came up with these **fairness criteria** to help determine whet
 >| 3rd | F | O | S |
 >| 4th | O | F | O |
 >| 5th | S | R | R |
+>
 >Using [[Pairwise Comparisons]] the Condorcet candidate is found to be H. Yet using Plurality the candidate that should win is R.
 >>[!warning] This is a violation!
  
